@@ -1,0 +1,5 @@
+add_executable(range_images_creation range_images_creation.cpp)
+target_link_libraries(range_images_creation ${PCL_LIBRARIES} )
+
+add_executable(range_image_border_extraction range_image_border_extraction.cpp)
+target_link_libraries(range_image_border_extraction ${PCL_LIBRARIES} )
